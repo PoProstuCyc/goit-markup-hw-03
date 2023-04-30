@@ -28,9 +28,6 @@ body {
 a {
   text-decoration: none;
 }
-header {
-  justify-content: space-between;
-}
 .container {
   width: 1200px;
   margin-left: auto;
@@ -41,6 +38,7 @@ header {
   cursor: pointer;
 }
 .menu {
+  text-align: center;
 }
 .logo_header {
   font-family: "Raleway";
@@ -50,6 +48,7 @@ header {
   line-height: 1.192;
   color: var(--main_color);
   text-decoration: none;
+  float: left;
 }
 .second-color {
   color: var(--second_color_logo);
@@ -60,6 +59,10 @@ header {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
+  width: 254px;
+  display: flex;
+  justify-content: space-between;
+  float: left;
 }
 .mail_header {
   font-style: normal;
