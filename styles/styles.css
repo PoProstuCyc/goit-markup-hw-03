@@ -29,7 +29,7 @@ a {
   text-decoration: none;
 }
 .container {
-  width: 480px;
+  width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -37,8 +37,6 @@ a {
   cursor: pointer;
 }
 .menu {
-  width: 1600px;
-  height: 80px;
 }
 .logo_header {
   font-family: "Raleway";
@@ -149,11 +147,9 @@ a {
 }
 .footer {
   background-color: var(--background_color_footer);
-  width: 1600px;
 }
 .order_service {
   background-color: var(--background_color_footer);
-  width: 1600px;
   height: 600px;
 }
 .main_text_index {
@@ -175,7 +171,6 @@ a {
 }
 .our_atuts {
   background-color: var(--our_atuts_color);
-  width: 1600px;
 }
 .our_atuts_heder {
   font-style: normal;
@@ -200,7 +195,6 @@ a {
 }
 .our_team {
   background-color: var(--our_team_background_color);
-  width: 1600px;
 }
 .our_team_header {
   font-style: normal;
