@@ -46,6 +46,7 @@ a {
   line-height: 1.192;
   color: var(--main_color);
   text-decoration: none;
+  display: block;
 }
 .second-color {
   color: var(--second_color_logo);
