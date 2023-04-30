@@ -159,6 +159,7 @@ a {
   font-size: 44px;
   line-height: 1.363;
   color: var(--second_color);
+  margin: auto;
 }
 .button_index {
   font-style: normal;
