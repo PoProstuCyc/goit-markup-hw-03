@@ -28,6 +28,9 @@ body {
 a {
   text-decoration: none;
 }
+header {
+  justify-content: space-between;
+}
 .container {
   width: 1200px;
   margin-left: auto;
