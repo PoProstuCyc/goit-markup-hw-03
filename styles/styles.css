@@ -30,17 +30,14 @@ a {
 }
 .container {
   width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
 }
 .cursor {
   cursor: pointer;
 }
 .menu {
-  display: flex;
-  align-items: center;
-  margin-right: auto;
-  margin-left: auto;
 }
 .logo_header {
   font-family: "Raleway";
@@ -67,6 +64,7 @@ a {
   font-size: 14px;
   line-height: 1.142;
   color: var(--mail_and_links_header_color);
+  width: 135px;
 }
 .telephone_header {
   font-style: normal;
