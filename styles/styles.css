@@ -159,7 +159,8 @@ a {
   font-size: 44px;
   line-height: 1.363;
   color: var(--second_color);
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 .button_index {
   font-style: normal;
@@ -170,7 +171,8 @@ a {
   background-color: var(--second_color_logo);
   cursor: pointer;
   border: none;
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 .our_atuts {
   background-color: var(--our_atuts_color);
