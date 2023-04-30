@@ -37,6 +37,8 @@ a {
   cursor: pointer;
 }
 .menu {
+  margin-right: auto;
+  margin-left: auto;
 }
 .logo_header {
   font-family: "Raleway";
