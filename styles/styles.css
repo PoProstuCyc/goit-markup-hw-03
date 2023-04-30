@@ -171,8 +171,6 @@ a {
   background-color: var(--second_color_logo);
   cursor: pointer;
   border: none;
-  margin-right: auto;
-  margin-left: auto;
 }
 .our_atuts {
   background-color: var(--our_atuts_color);
