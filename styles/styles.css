@@ -32,7 +32,7 @@ a {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0;
+  padding: 0 15px;
 }
 .cursor {
   cursor: pointer;
