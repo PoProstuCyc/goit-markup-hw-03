@@ -40,8 +40,9 @@ header {
   cursor: pointer;
 }
 .menu {
+  text-align: center;
   flex-direction: row;
-  display: block;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   width: 1800px;
@@ -96,7 +97,6 @@ header {
   line-height: 1.142;
   color: var(--mail_and_links_header_color);
   width: 135px;
-  margin-left: 371px;
   margin-top: 32px;
   margin-bottom: 32px;
 }
