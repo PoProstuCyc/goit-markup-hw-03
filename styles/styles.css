@@ -40,8 +40,10 @@ header {
   cursor: pointer;
 }
 .menu {
-  justify-content: flex-start;
-  align-items: baseline;
+  flex-direction: row;
+  display: block;
+  justify-content: space-between;
+  align-items: center;
   width: 1800px;
   height: 80px;
 }
@@ -61,6 +63,12 @@ header {
 .second-color {
   color: var(--second_color_logo);
 }
+.navigate_list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 254px;
+}
 .navigate {
   color: var(--color_navigate);
   font-style: normal;
@@ -76,12 +84,11 @@ header {
 .contacts {
   margin-left: 371px;
 }
-.navigate_list {
+.contacts_list {
   list-style: none;
   display: flex;
-  justify-content: space-between;
-  width: 254px;
 }
+
 .mail_header {
   font-style: normal;
   font-weight: 500;
