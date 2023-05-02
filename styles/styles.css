@@ -22,6 +22,7 @@
   --color_type_item_portfolio: rgba(117, 117, 117, 1);
 }
 body {
+  width: 1600px;
   font-family: Roboto, sans-serif;
   color: var(--main_color);
 }
@@ -45,7 +46,6 @@ a {
   align-items: baseline;
   flex-direction: row;
   display: flex;
-  width: 1800px;
   height: 80px;
 }
 .logo_header {
@@ -203,6 +203,7 @@ a {
   margin-right: auto;
   margin-left: auto;
   justify-content: center;
+  padding-top: 200px;
 }
 .order_service {
   text-align: center;
@@ -217,9 +218,18 @@ a {
   background-color: var(--second_color_logo);
   cursor: pointer;
   border: none;
+  margin-right: auto;
+  margin-left: auto;
 }
 .our_atuts {
+  padding-top: 94px;
   background-color: var(--our_atuts_color);
+  margin-bottom: 94px;
+}
+.our_atuts_list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
 }
 .our_atuts_heder {
   font-style: normal;
@@ -235,15 +245,24 @@ a {
   line-height: 1.714;
   color: var(--mail_and_links_header_color);
 }
+.what_we_do {
+  height: 386px;
+  margin-bottom: 94px;
+}
 .what_we_do_header {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
   color: var(--header_color);
+  text-align: center;
+  padding-left: 409px;
+  padding-right: 409px;
 }
-.our_team {
-  background-color: var(--our_team_background_color);
+.what_we_do_list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
 }
 .our_team_header {
   font-style: normal;
@@ -251,7 +270,19 @@ a {
   font-size: 36px;
   line-height: 1.166;
   color: var(--header_color);
+  text-align: center;
 }
+.our_team {
+  padding-top: 94px;
+  background-color: var(--our_team_background_color);
+}
+.our_team_list {
+  display: flex;
+  list-style: none;
+  padding-top: 50px;
+  justify-content: space-between;
+}
+
 .name {
   font-style: normal;
   font-weight: 500;
