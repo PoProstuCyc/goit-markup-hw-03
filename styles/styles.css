@@ -281,7 +281,8 @@ a {
   display: flex;
   list-style: none;
   padding-top: 50px;
-  justify-content: space-between;
+  padding-left: auto;
+  padding-right: auto;
 }
 
 .name {
