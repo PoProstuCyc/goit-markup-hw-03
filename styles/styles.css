@@ -28,23 +28,23 @@ body {
 a {
   text-decoration: none;
 }
-header {
-}
 .container {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
 }
+.paddings {
+  padding-top: 32px;
+  padding-top: 32px;
+}
 .cursor {
   cursor: pointer;
 }
 .menu {
-  text-align: center;
+  align-items: baseline;
   flex-direction: row;
   display: flex;
-  justify-content: center;
-  align-items: center;
   width: 1800px;
   height: 80px;
 }
@@ -55,8 +55,8 @@ header {
   font-size: 26px;
   line-height: 1.192;
   color: var(--main_color);
+  width: 145px;
   text-decoration: none;
-  float: left;
   margin-left: 215px;
   margin-top: 24px;
   margin-bottom: 25px;
@@ -79,13 +79,9 @@ header {
   display: flex;
   float: left;
   margin-left: 93px;
-  margin-top: 32px;
-  margin-bottom: 32px;
 }
 .contacts {
   margin-left: 371px;
-  margin-top: 32px;
-  margin-bottom: 32px;
 }
 .contacts_list {
   list-style: none;
@@ -99,6 +95,8 @@ header {
   line-height: 1.142;
   color: var(--mail_and_links_header_color);
   width: 135px;
+  margin-bottom: 32px;
+  margin-top: 32px;
 }
 .telephone_header {
   font-style: normal;
@@ -108,6 +106,8 @@ header {
   color: var(--mail_and_links_header_color);
   width: 110px;
   margin-left: 50px;
+  margin-bottom: 32px;
+  margin-top: 32px;
 }
 .links {
   text-decoration: none;
