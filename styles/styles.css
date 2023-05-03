@@ -276,13 +276,15 @@ a {
   background-color: var(--our_team_background_color);
   padding-top: 94px;
   padding-bottom: 94px;
+  align-items: center;
 }
 .our_team_list {
   display: flex;
   list-style: none;
   padding-top: 50px;
-  padding-left: auto;
-  padding-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
 }
 
 .name {
