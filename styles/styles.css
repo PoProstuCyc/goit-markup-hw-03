@@ -293,32 +293,51 @@ a {
   font-size: 16px;
   line-height: 1.1875;
   color: var(--name_colour);
+  padding-right: 99px;
+  padding-bottom: 10px;
+  padding-left: 99px;
+  text-align: center;
 }
 .profession {
   color: #757575;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.1875;
+  text-align: center;
+  margin-bottom: 30px;
 }
 .teammates_1 {
   background-color: var(--staff_background_color);
   width: 270px;
   height: 368px;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .teammates_2 {
   background-color: var(--staff_background_color);
   width: 270px;
   height: 368px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .teammates_3 {
   background-color: var(--staff_background_color);
   width: 270px;
   height: 368px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .teammates_4 {
   background-color: var(--staff_background_color);
   width: 270px;
   height: 368px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .profession {
   font-style: normal;
