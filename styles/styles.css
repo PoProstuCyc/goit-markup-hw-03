@@ -303,7 +303,6 @@ img {
   padding-right: 20px;
   justify-content: space-between;
 }
-
 .name {
   font-weight: 500;
   font-size: 16px;
@@ -377,6 +376,10 @@ img {
   background-color: var(--background_portfolio);
   border: none;
 }
+.filters {
+  padding-top: 92px;
+  padding-bottom: 50px;
+}
 .buttion_portfolio {
   font-weight: 500;
   font-size: 16px;
@@ -386,6 +389,7 @@ img {
   border-radius: 4px;
   border: none;
   cursor: pointer;
+  padding: 6px 22px 6px 22px;
 }
 .card_list {
   display: flex;
@@ -395,17 +399,16 @@ img {
 .card_list_paddding {
   padding-left: 8px;
 }
-.card-set {
+.card_set {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
-  gap: 15px;
+  gap: 30px;
   list-style: none;
-  background-color: var(--background_color_items_portfolio);
+  padding-bottom: 94px;
 }
 .projects {
   background-color: #ffffff;
-  flex-basis: calc((100% - 30px) / 3);
 }
 .project_1 {
   width: 370px;
@@ -463,4 +466,15 @@ img {
   font-size: 16px;
   line-height: 2;
   color: var(--color_type_item_portfolio);
+}
+.padding_name_item_portfolio {
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 4px;
+}
+.type_item_portfolio {
+  padding-left: 24px;
+  padding-bottom: 20px;
+  padding-right: 24;
 }
