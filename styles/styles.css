@@ -40,6 +40,11 @@ a {
   padding-top: 32px;
   padding-left: 93px;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .cursor {
   cursor: pointer;
 }
