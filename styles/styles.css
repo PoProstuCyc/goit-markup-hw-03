@@ -29,6 +29,13 @@ body {
 a {
   text-decoration: none;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
 .container {
   width: 1200px;
   margin-left: auto;
@@ -52,11 +59,9 @@ a {
   align-items: baseline;
   flex-direction: row;
   display: flex;
-  height: 80px;
 }
 .logo_header {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
@@ -78,7 +83,6 @@ a {
 }
 .navigate {
   color: var(--color_navigate);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -94,7 +98,6 @@ a {
 }
 
 .mail_header {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -104,7 +107,6 @@ a {
   margin-top: 32px;
 }
 .telephone_header {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -193,10 +195,8 @@ a {
 }
 .order_service {
   background-color: var(--background_color_footer);
-  height: 600px;
 }
 .main_text_index {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
@@ -215,7 +215,6 @@ a {
   align-items: center;
 }
 .button_index {
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -237,25 +236,21 @@ a {
   justify-content: space-between;
 }
 .our_atuts_heder {
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
   color: var(--main_color);
 }
 .our_atuts_text {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   color: var(--mail_and_links_header_color);
 }
 .what_we_do {
-  height: 386px;
   margin-bottom: 94px;
 }
 .what_we_do_header {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
@@ -270,7 +265,6 @@ a {
   justify-content: space-between;
 }
 .our_team_header {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
@@ -293,7 +287,6 @@ a {
 }
 
 .name {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.1875;
@@ -345,7 +338,6 @@ a {
   border-radius: 0px 0px 4px 4px;
 }
 .profession {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.1875;
@@ -367,7 +359,6 @@ a {
   border: none;
 }
 .buttion_portfolio {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
@@ -443,14 +434,12 @@ a {
   background-color: var(--background_color_items_portfolio);
 }
 .name_item_portfolio {
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   color: var(--color_item_portfolio);
 }
 .type_item_portfolio {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 2;
