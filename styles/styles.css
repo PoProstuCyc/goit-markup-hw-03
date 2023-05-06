@@ -372,6 +372,18 @@ a {
   border: none;
   cursor: pointer;
 }
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  gap: 15px;
+  list-style: none;
+  background-color: var(--background_color_items_portfolio);
+}
+.projects {
+  background-color: #ffffff;
+  flex-basis: calc((100% - 30px) / 3);
+}
 .project_1 {
   width: 370px;
   height: 404px;
