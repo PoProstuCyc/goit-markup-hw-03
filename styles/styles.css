@@ -377,6 +377,9 @@ a {
   justify-content: center;
   list-style: none;
 }
+.card_list_paddding {
+  padding-left: 8px;
+}
 .card-set {
   display: flex;
   flex-wrap: wrap;
