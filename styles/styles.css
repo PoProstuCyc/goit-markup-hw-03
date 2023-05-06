@@ -374,7 +374,7 @@ a {
 }
 .card_list {
   display: flex;
-  align-items: center;
+  justify-content: center;
   list-style: none;
 }
 .card-set {
