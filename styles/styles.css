@@ -173,6 +173,7 @@ img {
 }
 .adress {
   padding-top: 20px;
+  row-gap: 9px;
 }
 .adress_list_footer {
   list-style: none;
@@ -183,7 +184,6 @@ img {
   font-size: 14px;
   line-height: 1.714;
   color: var(--second_color);
-  padding-bottom: 9px;
 }
 .mail_footer {
   font-style: normal;
@@ -198,7 +198,6 @@ img {
   font-size: 14px;
   line-height: 1.714;
   color: var(--mail_and_links_footer_color);
-  padding-top: 9px;
 }
 .order_service {
   background-color: var(--background_color_footer);
