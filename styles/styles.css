@@ -22,6 +22,8 @@
   --color_type_item_portfolio: rgba(117, 117, 117, 1);
 }
 header {
+  padding-right: 277px;
+  padding-left: 215px;
   border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 body {
@@ -53,9 +55,6 @@ img {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.padding_header {
-  display: flex;
 }
 .cursor {
   cursor: pointer;
